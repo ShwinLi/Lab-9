@@ -1,4 +1,4 @@
-def encoder(password_to_encode):
+def encoder(password_to_encode): # this encodes stuff
     encoded_password = list(str(password_to_encode))
 
     for i in range(len(encoded_password)):
